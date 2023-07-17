@@ -3,3 +3,112 @@
     padding:0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+/* Utilities */
+:root{
+    --primary-header:#0084FD;
+    --primary-soft:#B5DDFF;
+    --secondary-sections:#9792E4;
+    --text-free:#FDC15F;
+    --footer:#333333;
+
+    
+}
+.container
+{
+	max-width: 1152px;
+	width: 80%;
+	margin: auto;
+}
+
+.row
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -1rem;
+}
+
+.d_flex {
+    display: flex;
+  }
+  .d_column {
+    flex-direction: column;
+  }
+  .d_row {
+    flex-direction: row;
+  }
+  .d_none {
+    display: none;
+  }
+  .d_block {
+    display: block;
+  }
+
+/*
+[class^='col-']
+{
+	padding: 0 1rem;
+}
+
+.col-4
+{
+	width: calc(100% / 12 * 4);
+}
+
+.col-6
+{
+	width: calc(100% / 12 * 6);
+}
+
+.col-8
+{
+	width: calc(100% / 12 * 8);
+}
+
+.col-12
+{
+	width: 100%;
+}
+
+.d-none
+{
+	display: none;
+}*/
+
+/* Moibile First */
+header
+{
+	background-color:var(--primary-header);
+}
+
+header nav
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 0;
+}
+/*
+header nav > .desktop_menu
+{
+	display: none;
+}*/
+
+/* Desktop */
+.desktop_menu>a,button{
+padding:0 5px;
+}
+.desktop_menu>a{
+    text-decoration: none;
+    color: white;
+}
+.desktop_menu>button{
+    border-radius: 15px;
+    padding:5px;
+    background-color: white;
+    border:none;
+}
