@@ -66,6 +66,9 @@ body{
   .pad-bottm{
     padding-bottom:35px;
   }
+  .pad-col{
+    padding-bottom:20px;
+  }
   
 /*
 [class^='col-']
@@ -290,10 +293,14 @@ padding:20px 0;
   margin:10px 0;
 }
 .img-test>img{
-  width: 100%;
+  width: 300px;
   border-radius: 50%;
+  height: 300px;
   object-fit: cover;
   padding:15px 0;
+}
+.img-test{
+  text-align: center;
 }
 .test-text>p{
 color: white;
@@ -410,7 +417,7 @@ color: var(--secondary-sections);
 .top{
   padding:40px 0;
 }
-.top>p{
+.top ,.bottom{
   color:white;
 }
 .bottom>a{
