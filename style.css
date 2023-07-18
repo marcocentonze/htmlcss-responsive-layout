@@ -252,3 +252,44 @@ padding:20px 0;
   background-color: var(--secondary-sections);
   padding: 10px;
 }
+/* Fine sezine planning */
+
+/* inizio sezione testimonials */
+.col-12{
+  width: 100%;
+}
+.text-testimonials>h1{
+  color: var(--secondary-sections);
+  font-size: 30px;
+}
+.text-testimonials>p{
+  font-size: 18px;
+}
+.text-testimonials>h1,h4,p{
+  padding:15px 0;
+}
+.text-testimonials{
+  background-color: white;
+}
+#testimonials{
+  background-color: white;
+}
+
+.card-testimonials{
+  background-color:var(--secondary-sections);
+  height: 100%;
+  border: 1px solid black;
+  border-radius: 25px;
+  padding:10px 10px;
+  margin:10px 0;
+}
+.img-test>img{
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  padding:15px 0;
+}
+.test-text>p{
+color: white;
+}
+
