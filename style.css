@@ -364,3 +364,43 @@ color: var(--secondary-sections);
 .presentation{
   padding-bottom:50px;
 }
+/* fine about us section */
+
+/* inizio get started section */
+#get-started{
+  background-color: var(--secondary-sections);
+}
+.getting-started>h3{
+  padding-top:50px;
+}
+.getting-started>h2,h3{
+ color: white;
+}
+.getting-started>h1{
+  color:  #fdc15f;
+  font-size: 50px;
+ }
+ .getting-started>p{
+  color:white;
+  padding:25px 0;
+}
+.btn-get-started{
+  background-color: white;
+  color:var(--secondary-sections);
+  padding:10px 80px;
+  text-decoration: none;
+  border-radius: 20px;
+}
+.policies>span,a{
+ text-decoration: none;
+  color: white;
+}
+.getting-started{
+  padding-bottom:35px;
+}
+.policies{
+  padding-bottom:50px;
+}
+/* fine get started section */
+
+/* footer */
