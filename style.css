@@ -325,5 +325,42 @@ color: var(--secondary-sections);
   padding:10px 50px;
   border-radius: 20px;
   text-decoration: none;
-  
+}
+/* fine sezione benefits */
+
+/* inizio sezione about us*/
+.info>h1{
+  color: var(--secondary-sections);
+  padding-top:40px;
+  padding-bottom:20px;
+  font-size: 35px;
+  padding-left:15px;
+  padding-right:15px;
+}
+.info>p{
+  padding-left:15px;
+  padding-right:15px;
+  padding-top:5px;
+  padding-bottom:30px;
+}
+
+.profile-img>img{
+  width: 50%;
+  border-radius: 50%;
+}
+.presentation>h2,a{
+  padding:20px 15px;
+}
+.presentation>a{
+  background-color: var(--secondary-sections);
+  color: white;
+  border-radius: 20px;
+  padding:5px 8px;
+  text-decoration: none;
+}
+.fa-linkedin{
+  padding:0 8px;
+}
+.presentation{
+  padding-bottom:50px;
 }
