@@ -404,3 +404,18 @@ color: var(--secondary-sections);
 /* fine get started section */
 
 /* footer */
+#site-footer{
+  background-color: var(--footer);
+}
+.top{
+  padding:40px 0;
+}
+.top>p{
+  color:white;
+}
+.bottom>a{
+  color:var(--secondary-sections);
+}
+.bottom{
+  padding-bottom:40px;
+}
