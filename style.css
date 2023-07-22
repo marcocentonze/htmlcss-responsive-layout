@@ -128,7 +128,6 @@ header nav
 .card{
   background-color:var(--primary-soft);
   height: 100%;
-  border: 1px solid black;
   border-radius: 25px;
  
 }
@@ -452,7 +451,6 @@ width: 50%;
   margin-bottom:15px;
 }
 
-
 .col-8
 {
 	width: calc(100% / 12 * 8);
@@ -474,6 +472,7 @@ width: 50%;
 }
 .col-8-flex{
   display: flex;
+  padding-bottom: 20px;
 }
 .col-5{
   width:50%;
