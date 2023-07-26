@@ -72,6 +72,9 @@ body{
   .align-end{
     align-items:end;
   }
+  .space-evenly{
+    justify-content: space-evenly;
+  }
   
 /*
 [class^='col-']
@@ -294,11 +297,22 @@ color: var(--secondary-sections);
   padding-top:5px;
   padding-bottom:30px;
 }
-
-.profile-img>img{
-  width: 50%;
+#about .profile-img {
+  width:50%;
+  position: relative;
+  background-image: url(img/about.jpg);
   border-radius: 50%;
+  aspect-ratio: 1/1;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 0.5rem;
 }
+#about .profile-img i {
+  position: absolute;
+  right: -15px;
+  color: var(--secondary-sections);
+}
+
 .presentation>h2,a{
   padding:20px 15px;
 }
